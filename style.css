@@ -1,0 +1,141 @@
+.outer-box {
+  width: 1120px;
+  margin: 0 auto;
+  background-color:  black;
+}
+
+.clearfix {
+  overflow:  auto;
+}
+
+.content {
+  width: 720px;
+  padding:  0 50px 40px;
+  float:  left;
+  background-color:  white;
+  position: relative;
+}
+
+.sidebar {
+  width: 300px;
+  height: 100px;
+  float:  left;
+  color:  white;
+  padding-top: 30px;
+}
+
+.pic {
+  width: 120px;
+  border-radius: 100%;
+  margin: 0 auto;
+  display:  block;
+}
+
+.contact-info {
+  padding-top: 5px;
+  padding-bottom: 50px;
+  text-align: center;
+}
+
+div {
+  display: block;
+}
+
+.institution {
+  position: relative;
+  font-size: 90%;
+}
+
+.time-period {
+  position: absolute;
+  color: #D8D8D8;
+  right: 50px;
+  font-family: courier;
+  right: 0;
+  top: 0;
+  font-size: 80%;
+  }
+
+h1 {
+  font-size: 60px;
+  margin-top: 20px;
+  text-align: center;
+  padding-bottom: -90px;
+}
+
+h2 {
+  font-size: 120%;
+}
+
+h3 {
+  margin-left: 20px;
+}
+
+ul {
+  list-style: circle;
+}
+
+li {
+  padding-top:5px;
+  font-family: courier;
+  font-size: 80%;
+}
+
+li:first-child {
+  padding-top: 0px;
+}
+
+.skills {
+  margin-left: 5px;
+}
+
+.skills li {
+  list-style: square;
+  margin-left: -20px;
+  font-family: courier;
+  font-size: 80%;
+}
+
+.content .objective {
+  margin-left: 20px;
+  font-family: arial black;
+  font-size: 85%;
+  padding-bottom: 50px;
+}
+
+.outer-box{
+  background: rgb(34,89,152); /* Old browsers */
+  background: -moz-linear-gradient(top,  rgba(34,89,152,1) 0%, rgba(125,185,232,1) 100%); /* FF3.6+ */
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(34,89,152,1)), color-stop(100%,rgba(125,185,232,1))); /* Chrome,Safari4+ */
+  background: -webkit-linear-gradient(top,  rgba(34,89,152,1) 0%,rgba(125,185,232,1) 100%); /* Chrome10+,Safari5.1+ */
+  background: -o-linear-gradient(top,  rgba(34,89,152,1) 0%,rgba(125,185,232,1) 100%); /* Opera 11.10+ */
+  background: -ms-linear-gradient(top,  rgba(34,89,152,1) 0%,rgba(125,185,232,1) 100%); /* IE10+ */
+  background: linear-gradient(to bottom,  rgba(34,89,152,1) 0%,rgba(125,185,232,1) 100%); /* W3C */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#225998', endColorstr='#7db9e8',GradientType=0 ); /* IE6-9 */
+}
+
+.sidebar .skills {
+  padding-left: 20px;
+}
+
+
+.left-col {
+    float: left;
+    width:25%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.center-col {
+    float: left;
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.right-col {
+    float: left;
+    width: 25%;
+    margin-left: auto;
+    margin-right: auto;
+}
